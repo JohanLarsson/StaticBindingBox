@@ -9,13 +9,7 @@
         Height="350"
         mc:Ignorable="d">
     <StackPanel>
-        <Label Content="{Binding Foo.Value}" />
-        <Label Content="{Binding local:Foo.Value}" />
-        <Label Content="{Binding local:Foo.Value, UpdateSourceTrigger=PropertyChanged}" />
-        <Label Content="{x:Static local:Foo.Value}" />
-        <Label Content="{Binding Source={x:Static local:Foo.Value}}" />
-        <Label Content="{Binding Source=local:Foo.Value}" />
-        <Label Content="{Binding Source={x:Static local:Foo.Value}, UpdateSourceTrigger=PropertyChanged}" />
+        <Label Content="{Binding Path=(local:Foo.Value)}" />
         <Label Content="{DynamicResource {x:Static local:Keys.CurrentValueKey}}" />
         <Label Content="{local:CurrentValue}" />
         <TextBlock x:Name="CurrentValueBox" />
