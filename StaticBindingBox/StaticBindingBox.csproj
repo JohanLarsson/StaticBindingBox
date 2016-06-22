@@ -55,6 +55,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="CurrentValueExtension.cs" />
     <Compile Include="Foo.cs" />
     <Compile Include="Keys.cs" />
     <Compile Include="MainWindow.xaml.cs">
@@ -63,6 +64,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Properties\Annotations.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>

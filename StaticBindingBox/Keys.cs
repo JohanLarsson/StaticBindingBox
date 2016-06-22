@@ -1,4 +1,7 @@
-﻿namespace StaticBindingBox
+﻿using System.Runtime.CompilerServices;
+using StaticBindingBox.Annotations;
+
+namespace StaticBindingBox
 {
     using System.Windows;
 

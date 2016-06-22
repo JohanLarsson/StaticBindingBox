@@ -17,6 +17,7 @@
         <Label Content="{Binding Source=local:Foo.Value}" />
         <Label Content="{Binding Source={x:Static local:Foo.Value}, UpdateSourceTrigger=PropertyChanged}" />
         <Label Content="{DynamicResource {x:Static local:Keys.CurrentValueKey}}" />
+        <Label Content="{local:CurrentValue}" />
         <TextBlock x:Name="CurrentValueBox" />
         <RepeatButton Click="OnIncreaseClick" Content="Increment" />
     </StackPanel>
