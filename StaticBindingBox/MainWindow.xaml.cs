@@ -15,6 +15,7 @@
         private void OnIncreaseClick(object sender, RoutedEventArgs e)
         {
             Foo.Value++;
+            CurrentValueBox.Text = $"Current value: {Foo.Value}";
         }
     }
 }
